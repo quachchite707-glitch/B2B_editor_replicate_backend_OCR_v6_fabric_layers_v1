@@ -1,0 +1,18 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+paddlepaddle==2.6.2
+paddleocr==2.8.0
+opencv-python==4.10.0.84
+numpy==1.26.4
+pillow==10.4.0
+python-multipart==0.0.9
+pydantic==2.8.2
+pydantic-settings==2.4.0
+
+
+
+
+# Notes:
+# - We pin paddlepaddle to 2.6.x for PaddleOCR 2.8.x stability.
+#   If your pip mirror doesn't host this wheel, install from Paddle's official index first.
+# - If you run into installation issues, use Python 3.9~3.11.
